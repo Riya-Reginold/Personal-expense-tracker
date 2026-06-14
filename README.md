@@ -1,4 +1,62 @@
-# React + TypeScript + Vite
+#  Personal Expense Tracker - React + TypeScript + Vite
+A modern personal finance tracker built with React, TypeScript, and Redux. Track your income and expenses, visualise spending by category, and monitor your monthly financial health.
+
+# ✨ Features
+ 
+- **Dashboard** — Dashboard with summary cards, spending chart, and monthly insights
+- **Transactions** — Add, filter, and delete income and expense transactions
+- **Analytics** — spending by category with month-by-month navigation
+- **Donut chart** — visualise expenses per category with progress bars
+- **Monthly summary** — top spending category, biggest expense, transaction count, and month progress
+- **Filters** — filter transactions by type and category
+- **Dark / Light mode** — toggle theme with preference saved
+- **Persistent storage** — transactions saved to localStorage and restored on page reload
+- **Category icons** — Tabler Icons for each spending category
+---
+## 🛠 Tech Stack
+ 
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| TypeScript | Type safety |
+| Redux Toolkit | Global state management |
+| CSS Modules | Scoped component styling |
+| Chart.js | Donut chart visualisation |
+| Tabler Icons | Category and UI icons |
+| Jest | Unit and component testing |
+| React Testing Library | DOM-based component tests |
+| Vite | Build tool and dev server |
+ 
+---
+## 🧪 Testing
+ 
+The project includes 5 test suites covering all layers of the app:
+ 
+| Test file | What it covers |
+|---|---|
+| `transactionsSlice.test.ts` | Redux slice — add, delete, initial state |
+| `AddTransactionForm.test.tsx` | Form validation, dispatch, reset |
+| `Summary.test.tsx` | Derived state calculations |
+| `TransactionList.test.tsx` | Rendering, filtering, compact mode, delete |
+| `MonthlySummary.test.tsx` | Monthly stats, top category, biggest expense |
+ 
+Run all tests:
+ 
+```bash
+npx jest
+```
+ 
+--
+
+
+
+
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
