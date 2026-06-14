@@ -70,7 +70,7 @@ function MonthlySummary() {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}> Current Monthly summary</h2>
+      <h2 className={styles.title}> Monthly summary</h2>
 
       <div className={styles.statList}>
 

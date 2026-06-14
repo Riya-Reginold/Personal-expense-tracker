@@ -17,7 +17,7 @@ describe('MonthlySummary', () => {
 
   it('renders the title', () => {
     render(<Provider store={makeStore()}><MonthlySummary /></Provider>);
-    expect(screen.getByText('Current Monthly summary')).toBeInTheDocument();
+    expect(screen.getByText('Monthly summary')).toBeInTheDocument();
   });
 
   it('shows zero transactions when empty', () => {
