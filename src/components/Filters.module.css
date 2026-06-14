@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.select {
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  cursor: pointer;
+  flex: 1;
+  min-width: 120px;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--text-secondary);
+}
+
+.resetBtn {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.resetBtn:hover {
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
